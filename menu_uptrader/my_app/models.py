@@ -10,14 +10,6 @@ class MenuItem(models.Model):
     def __str__(self):
         return self.name
 
-    # def get_absolute_url(self):
-    #     if self.named_url:
-    #         return reverse(self.named_url)
-    #     elif self.url:
-    #         return self.url
-    #     else:
-    #         return '#'
-
     class Meta:
         verbose_name = 'Древовидное меню'
         verbose_name_plural = 'Древовидное меню'
